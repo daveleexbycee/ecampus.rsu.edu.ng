@@ -1,0 +1,95 @@
+@media (max-width: 450px) {
+    body{
+        background-color: white;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: rgb(24, 2, 87);
+     }
+     .hero p{
+        color: grey;
+     }
+     .head{
+        margin: 20px;
+        display: flex;
+        gap: 30px;
+     }
+     .logo img{
+        width: 80px;
+        height: 50px;
+     }
+     .left img{
+        width: 10px;
+        height: 20px;
+     }
+     .mainshit{
+        text-align: justify;
+    }
+    .left{
+        display: flex;
+        position: absolute;
+        top: 2px;
+        left: 70%;
+    } 
+    .v{
+        font-size: 1rem;
+        color: rgb(24, 2, 87);
+    }
+    .mn{
+        background-color: rgba(250, 199, 180, 0.973);
+        border-radius: 3px;
+    }
+    .left h3{
+        margin: 9px;
+        font-size: 0.8rem;
+        gap: 13px;
+        display: flex;
+        color: red;
+        border-radius: 3px;
+        height: 20px;
+    }
+    .h{
+        width: 100px;
+       border-bottom:3px solid rgb(24, 2, 87);
+    }
+    button{
+        background-color: rgb(36, 202, 36);
+        border-radius: 6px;
+        padding: 8px;
+        width: 70px;
+        border: 1px solid transparent;
+        color: whitesmoke;
+    }
+    .body{
+        top: 10%;
+        margin: 10px;
+    }
+    .c{
+        margin: 8px;
+        font-weight: bold;
+    }
+    .school{
+        text-align: left;
+        inset: 3px;
+        width: 300px;
+        height: 180px;
+        background: rgba(250, 199, 180, 0.973);
+        border-radius: 4px;
+        box-shadow: 0 4px 6px 7px solid black;
+    }
+    .trans{
+        display: flex;
+        font-size: 0.9rem;
+        gap: 20px;
+    }
+    .trans .gh{
+        border-bottom: 2px solid rgb(24, 2, 87);
+    }
+    footer{
+        position: absolute;
+        top: 90%;
+        left: 25%;
+        text-align: center;
+    }
+    footer p{
+        gap: 10px;
+    }
+}
